@@ -1,0 +1,319 @@
+Microsoft Windows [Version 10.0.22631.3155]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\System32>curl.exe -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.29.0/2024-01-04/bin/windows/amd64/kubectl.exe
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 48.6M  100 48.6M    0     0   985k      0  0:00:50  0:00:50 --:--:-- 1027k
+
+C:\Windows\System32>kubectl version --client
+Client Version: v1.29.0-eks-5e0fdde
+Kustomize Version: v5.0.4-0.20230601165947-6ce0bf390ce3
+
+C:\Windows\System32>aws --version
+aws-cli/2.13.28 Python/3.11.6 Windows/10 exe/AMD64 prompt/off
+
+C:\Windows\System32>eksctl --version
+'eksctl' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>choco install -y eksctl
+Chocolatey v2.2.2
+Installing the following packages:
+eksctl
+By installing, you accept licenses for the packages.
+Progress: Downloading eksctl 0.171.0... 100%
+
+eksctl v0.171.0 [Approved]
+eksctl package files install completed. Performing other installation steps.
+eksctl is going to be installed in 'C:\ProgramData\chocolatey\lib\eksctl\tools'
+Using system proxy server '127.0.0.1:9000'.
+Downloading eksctl 64 bit
+  from 'https://github.com/eksctl-io/eksctl/releases/download/v0.171.0/eksctl_Windows_amd64.zip'
+Using system proxy server '127.0.0.1:9000'.
+Progress: 100% - Completed download of C:\Users\A627692\AppData\Local\Temp\chocolatey\eksctl\0.171.0\eksctl_Windows_amd64.zip (33.71 MB).
+Download of eksctl_Windows_amd64.zip (33.71 MB) completed.
+Hashes match.
+Extracting C:\Users\A627692\AppData\Local\Temp\chocolatey\eksctl\0.171.0\eksctl_Windows_amd64.zip to C:\ProgramData\chocolatey\lib\eksctl\tools...
+C:\ProgramData\chocolatey\lib\eksctl\tools
+ ShimGen has successfully created a shim for eksctl.exe
+ The install of eksctl was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\eksctl\tools'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+C:\Windows\System32>eksctl version
+0.171.0
+
+C:\Windows\System32>
+C:\Windows\System32>kubectl --version
+error: unknown flag: --version
+See 'kubectl --help' for usage.
+
+C:\Windows\System32>eksctl
+The official CLI for Amazon EKS
+
+Usage: eksctl [command] [flags]
+
+Commands:
+  eksctl anywhere                        EKS anywhere
+  eksctl associate                       Associate resources with a cluster
+  eksctl completion                      Generates shell completion scripts for bash, zsh or fish
+  eksctl create                          Create resource(s)
+  eksctl delete                          Delete resource(s)
+  eksctl deregister                      Deregister a non-EKS cluster
+  eksctl disassociate                    Disassociate resources from a cluster
+  eksctl drain                           Drain resource(s)
+  eksctl enable                          Enable features in a cluster
+  eksctl get                             Get resource(s)
+  eksctl help                            Help about any command
+  eksctl info                            Output the version of eksctl, kubectl and OS info
+  eksctl register                        Register a non-EKS cluster
+  eksctl scale                           Scale resources(s)
+  eksctl set                             Set values
+  eksctl unset                           Unset values
+  eksctl update                          Update resource(s)
+  eksctl upgrade                         Upgrade resource(s)
+  eksctl utils                           Various utils
+  eksctl version                         Output the version of eksctl
+
+Common flags:
+  -C, --color string   toggle colorized logs (valid options: true, false, fabulous) (default "true")
+  -d, --dumpLogs       dump logs to disk on failure if set to true
+  -h, --help           help for this command
+  -v, --verbose int    set log level, use 0 to silence, 4 for debugging and 5 for debugging with AWS debug logging (default 3)
+
+Use 'eksctl [command] --help' for more information about a command.
+
+
+For detailed docs go to https://eksctl.io/
+
+C:\Windows\System32>eksctl create cluster --name demo-cluster --region eu-central-1 --fargate
+2024-02-16 17:04:39 [ℹ]  eksctl version 0.171.0
+2024-02-16 17:04:39 [ℹ]  using region eu-central-1
+2024-02-16 17:04:39 [ℹ]  setting availability zones to [eu-central-1b eu-central-1c eu-central-1a]
+2024-02-16 17:04:39 [ℹ]  subnets for eu-central-1b - public:192.168.0.0/19 private:192.168.96.0/19
+2024-02-16 17:04:39 [ℹ]  subnets for eu-central-1c - public:192.168.32.0/19 private:192.168.128.0/19
+2024-02-16 17:04:39 [ℹ]  subnets for eu-central-1a - public:192.168.64.0/19 private:192.168.160.0/19
+2024-02-16 17:04:39 [ℹ]  using Kubernetes version 1.27
+2024-02-16 17:04:39 [ℹ]  creating EKS cluster "demo-cluster" in "eu-central-1" region with Fargate profile
+2024-02-16 17:04:39 [ℹ]  if you encounter any issues, check CloudFormation console or try 'eksctl utils describe-stacks --region=eu-central-1 --cluster=demo-cluster'
+2024-02-16 17:04:39 [ℹ]  Kubernetes API endpoint access will use default of {publicAccess=true, privateAccess=false} for cluster "demo-cluster" in "eu-central-1"
+2024-02-16 17:04:39 [ℹ]  CloudWatch logging will not be enabled for cluster "demo-cluster" in "eu-central-1"
+2024-02-16 17:04:39 [ℹ]  you can enable it with 'eksctl utils update-cluster-logging --enable-types={SPECIFY-YOUR-LOG-TYPES-HERE (e.g. all)} --region=eu-central-1 --cluster=demo-cluster'
+2024-02-16 17:04:39 [ℹ]
+2 sequential tasks: { create cluster control plane "demo-cluster",
+    2 sequential sub-tasks: {
+        wait for control plane to become ready,
+        create fargate profiles,
+    }
+}
+2024-02-16 17:04:39 [ℹ]  building cluster stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:04:45 [ℹ]  deploying stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:05:15 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:05:45 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:06:46 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:07:51 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:08:52 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:09:52 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:10:57 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:11:57 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:12:58 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:14:03 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-cluster"
+2024-02-16 17:16:06 [ℹ]  creating Fargate profile "fp-default" on EKS cluster "demo-cluster"
+2024-02-16 17:18:16 [ℹ]  created Fargate profile "fp-default" on EKS cluster "demo-cluster"
+2024-02-16 17:18:47 [ℹ]  "coredns" is now schedulable onto Fargate
+2024-02-16 17:19:51 [ℹ]  "coredns" is now scheduled onto Fargate
+2024-02-16 17:19:51 [ℹ]  "coredns" pods are now scheduled onto Fargate
+2024-02-16 17:19:51 [ℹ]  waiting for the control plane to become ready
+2024-02-16 17:19:52 [✔]  saved kubeconfig as "C:\\Users\\A627692\\.kube\\config"
+2024-02-16 17:19:52 [ℹ]  no tasks
+2024-02-16 17:19:52 [✔]  all EKS cluster resources for "demo-cluster" have been created
+2024-02-16 17:19:53 [ℹ]  kubectl command should work with "C:\\Users\\A627692\\.kube\\config", try 'kubectl get nodes'
+2024-02-16 17:19:53 [✔]  EKS cluster "demo-cluster" in "eu-central-1" region is ready
+
+C:\Windows\System32>
+C:\Windows\System32>eksctl get cluster
+NAME            REGION          EKSCTL CREATED
+demo-cluster    eu-central-1    True
+
+C:\Windows\System32>aws eks update-kubeconfig --name demo-cluster --region eu-central-1
+Added new context arn:aws:eks:eu-central-1:120561461764:cluster/demo-cluster to C:\Users\A627692\.kube\config
+
+C:\Windows\System32>eksctl create fargateprofile --cluster demo-cluster --region eu-central-1 --name alb-sample-app --namespace game-2048
+2024-02-16 17:30:34 [ℹ]  creating Fargate profile "alb-sample-app" on EKS cluster "demo-cluster"
+2024-02-16 17:32:44 [ℹ]  created Fargate profile "alb-sample-app" on EKS cluster "demo-cluster"
+
+C:\Windows\System32>kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.5.4/docs/examples/2048/2048_full.yaml
+namespace/game-2048 created
+deployment.apps/deployment-2048 created
+service/service-2048 created
+ingress.networking.k8s.io/ingress-2048 created
+
+C:\Windows\System32>kubectl get pods -n game-2048
+NAME                               READY   STATUS    RESTARTS   AGE
+deployment-2048-7ccfd8fdd6-htffw   1/1     Running   0          56s
+deployment-2048-7ccfd8fdd6-jq5t6   1/1     Running   0          56s
+deployment-2048-7ccfd8fdd6-kq6bp   1/1     Running   0          56s
+deployment-2048-7ccfd8fdd6-mfs9n   1/1     Running   0          56s
+deployment-2048-7ccfd8fdd6-xj6k2   1/1     Running   0          56s
+
+C:\Windows\System32>kubectl get pods -n game-2048 -w
+NAME                               READY   STATUS    RESTARTS   AGE
+deployment-2048-7ccfd8fdd6-htffw   1/1     Running   0          66s
+deployment-2048-7ccfd8fdd6-jq5t6   1/1     Running   0          66s
+deployment-2048-7ccfd8fdd6-kq6bp   1/1     Running   0          66s
+deployment-2048-7ccfd8fdd6-mfs9n   1/1     Running   0          66s
+deployment-2048-7ccfd8fdd6-xj6k2   1/1     Running   0          66s
+
+C:\Windows\System32>kubectl get svc -n game-2048
+NAME           TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+service-2048   NodePort   10.100.138.26   <none>        80:32750/TCP   2m26s
+
+C:\Windows\System32>kubectl get ingress -n game-2048
+NAME           CLASS   HOSTS   ADDRESS   PORTS   AGE
+ingress-2048   alb     *                 80      3m16s
+
+C:\Windows\System32>eksctl utils associate-iam-oidc-provider --cluster demo-cluster --approve
+2024-02-16 17:38:45 [ℹ]  will create IAM Open ID Connect provider for cluster "demo-cluster" in "eu-central-1"
+2024-02-16 17:38:45 [✔]  created IAM Open ID Connect provider for cluster "demo-cluster" in "eu-central-1"
+
+C:\Windows\System32>
+C:\Windows\System32>curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-controller/v2.5.4/docs/install/iam_policy.json
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  8386  100  8386    0     0  16166      0 --:--:-- --:--:-- --:--:-- 16251
+
+C:\Windows\System32>aws iam create-policy --policy-name AWSLoadBalancerControllerIAMPolicy --policy-document file://iam_policy.json
+{
+    "Policy": {
+        "PolicyName": "AWSLoadBalancerControllerIAMPolicy",
+        "PolicyId": "ANPARYEQF5ICHPYTQHZ22",
+        "Arn": "arn:aws:iam::120561461764:policy/AWSLoadBalancerControllerIAMPolicy",
+        "Path": "/",
+        "DefaultVersionId": "v1",
+        "AttachmentCount": 0,
+        "PermissionsBoundaryUsageCount": 0,
+        "IsAttachable": true,
+        "CreateDate": "2024-02-16T16:40:57+00:00",
+        "UpdateDate": "2024-02-16T16:40:57+00:00"
+    }
+}
+
+
+C:\Windows\System32>
+C:\Windows\System32>eksctl create iamserviceaccount --cluster=demo-cluster --namespace=kube-system --name=aws-load-balancer-controller --role-name AmazonEKSLoadBalancerControllerRole --attach-policy-arn=arn:aws:iam::120561461764:policy/AWSLoadBalancerControllerIAMPolicy --approve
+2024-02-16 17:43:25 [ℹ]  1 iamserviceaccount (kube-system/aws-load-balancer-controller) was included (based on the include/exclude rules)
+2024-02-16 17:43:25 [!]  serviceaccounts that exist in Kubernetes will be excluded, use --override-existing-serviceaccounts to override
+2024-02-16 17:43:25 [ℹ]  1 task: {
+    2 sequential sub-tasks: {
+        create IAM role for serviceaccount "kube-system/aws-load-balancer-controller",
+        create serviceaccount "kube-system/aws-load-balancer-controller",
+    } }2024-02-16 17:43:25 [ℹ]  building iamserviceaccount stack "eksctl-demo-cluster-addon-iamserviceaccount-kube-system-aws-load-balancer-controller"
+2024-02-16 17:43:25 [ℹ]  deploying stack "eksctl-demo-cluster-addon-iamserviceaccount-kube-system-aws-load-balancer-controller"
+2024-02-16 17:43:25 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-addon-iamserviceaccount-kube-system-aws-load-balancer-controller"
+2024-02-16 17:43:56 [ℹ]  waiting for CloudFormation stack "eksctl-demo-cluster-addon-iamserviceaccount-kube-system-aws-load-balancer-controller"
+2024-02-16 17:43:56 [ℹ]  created serviceaccount "kube-system/aws-load-balancer-controller"
+
+C:\Windows\System32>helm repo add eks https://aws.github.io/eks-charts
+'helm' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\System32>choco install kubernetes-helm
+Chocolatey v2.2.2
+Installing the following packages:
+kubernetes-helm
+By installing, you accept licenses for the packages.
+Progress: Downloading kubernetes-helm 3.14.0... 100%
+
+kubernetes-helm v3.14.0 [Approved]
+kubernetes-helm package files install completed. Performing other installation steps.
+The package kubernetes-helm wants to run 'chocolateyInstall.ps1'.
+Note: If you don't run this script, the installation will fail.
+Note: To confirm automatically next time, use '-y' or consider:
+choco feature enable -n allowGlobalConfirmation
+Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint): Y
+
+Using system proxy server '127.0.0.1:9000'.
+Downloading kubernetes-helm 64 bit
+  from 'https://get.helm.sh/helm-v3.14.0-windows-amd64.zip'
+Using system proxy server '127.0.0.1:9000'.
+Progress: 100% - Completed download of C:\Users\A627692\AppData\Local\Temp\chocolatey\kubernetes-helm\3.14.0\helm-v3.14.0-windows-amd64.zip (15.75 MB).
+Download of helm-v3.14.0-windows-amd64.zip (15.75 MB) completed.
+Hashes match.
+Extracting C:\Users\A627692\AppData\Local\Temp\chocolatey\kubernetes-helm\3.14.0\helm-v3.14.0-windows-amd64.zip to C:\ProgramData\chocolatey\lib\kubernetes-helm\tools...
+C:\ProgramData\chocolatey\lib\kubernetes-helm\tools
+ ShimGen has successfully created a shim for helm.exe
+ The install of kubernetes-helm was successful.
+  Software installed to 'C:\ProgramData\chocolatey\lib\kubernetes-helm\tools'
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+
+C:\Windows\System32>
+C:\Windows\System32>helm repo add eks https://aws.github.io/eks-charts
+"eks" has been added to your repositories
+
+C:\Windows\System32>helm repo update eks
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "eks" chart repository
+Update Complete. ⎈Happy Helming!⎈
+
+C:\Windows\System32>helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n kube-system --set clusterName=demo-cluster --set serviceAccount.create=false   --set serviceAccount.name=aws-load-balancer-controller --set region=eu-central-1 --set vpcId=vpc-078fd40e83121b407
+NAME: aws-load-balancer-controller
+LAST DEPLOYED: Fri Feb 16 17:51:31 2024
+NAMESPACE: kube-system
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+AWS Load Balancer controller installed!
+
+C:\Windows\System32>kubectl get deployment -n kube-system aws-load-balancer-controller
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
+aws-load-balancer-controller   2/2     2            2           74s
+
+C:\Windows\System32>
+C:\Windows\System32>kubectl get pods -n kube-system
+NAME                                            READY   STATUS    RESTARTS   AGE
+aws-load-balancer-controller-764cf8577d-4gbjp   1/1     Running   0          101s
+aws-load-balancer-controller-764cf8577d-lnf9z   1/1     Running   0          101s
+coredns-6dcb997fc7-2crxv                        1/1     Running   0          34m
+coredns-6dcb997fc7-98p6c                        1/1     Running   0          34m
+
+C:\Windows\System32>
+C:\Windows\System32>kubectl get deploy ingress -n kube-system
+Error from server (NotFound): deployments.apps "ingress" not found
+
+C:\Windows\System32>kubectl get deploy -n kube-system
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
+aws-load-balancer-controller   2/2     2            2           45m
+coredns                        2/2     2            2           85m
+
+C:\Windows\System32>
+C:\Windows\System32>kubectl get ingress -n kube-system
+No resources found in kube-system namespace.
+
+C:\Windows\System32>kubectl get ingress -n game-2048
+NAME           CLASS   HOSTS   ADDRESS                                                                      PORTS   AGE
+ingress-2048   alb     *       k8s-game2048-ingress2-bcac0b5b37-1966064794.eu-central-1.elb.amazonaws.com   80      65m
+
+C:\Windows\System32>eksctl delete cluster --name demo-cluster --region eu-central-1
+2024-02-16 18:44:35 [ℹ]  deleting EKS cluster "demo-cluster"
+2024-02-16 18:44:40 [ℹ]  deleting Fargate profile "alb-sample-app"
+2024-02-16 18:46:49 [ℹ]  deleted Fargate profile "alb-sample-app"
+2024-02-16 18:46:49 [ℹ]  deleting Fargate profile "fp-default"
+2024-02-16 18:48:57 [ℹ]  deleted Fargate profile "fp-default"
+2024-02-16 18:48:57 [ℹ]  deleted 2 Fargate profile(s)
+2024-02-16 18:49:03 [✔]  kubeconfig has been updated
+2024-02-16 18:49:03 [ℹ]  cleaning up AWS load balancers created by Kubernetes objects of Kind Service or Ingress
+Error: deadline surpassed waiting for AWS load balancers to be deleted: k8s-game2048-ingress2-bcac0b5b37
+
+C:\Windows\System32>eksctl delete cluster --name demo-cluster --region eu-central-1
+2024-02-16 19:16:11 [ℹ]  deleting EKS cluster "demo-cluster"
+2024-02-16 19:16:12 [ℹ]  deleted 0 Fargate profile(s)
+2024-02-16 19:16:13 [ℹ]  cleaning up AWS load balancers created by Kubernetes objects of Kind Service or Ingress
+^C
+C:\Windows\System32>
+C:\Windows\System32>
