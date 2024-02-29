@@ -15,7 +15,8 @@ Step 1. Create a bucket:
 
 Architecture overview al
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/c51d25b0-b277-496d-acf3-592751f89fb9)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/5ec2c2dc-7346-401f-a1ec-8cb98e675971)
+
 
 
 
