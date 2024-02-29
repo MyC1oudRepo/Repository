@@ -17,7 +17,7 @@ Create a bucket:
 
 Architecture overview after completing the first step:
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/a695b6df-0e91-400c-9456-c939d98f60e7)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/8eb5bd68-0b82-4aa4-99f4-50897f1c9888)
 
 
 Create an email template. The template email_template.html has been uploaded to this folder.
