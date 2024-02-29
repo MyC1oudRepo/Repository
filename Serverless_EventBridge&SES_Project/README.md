@@ -35,7 +35,7 @@ Update both files email_template.html and contacts.csv to the S3 bucket my-serve
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/5dfbecc4-4cfc-4f7f-8b50-b0bb7d7f94bf)
 
 
-Create an email service by adding you email address and sending domain.
+Create an email service by adding your email address and sending domain.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/dd39cca7-5454-4a9d-bc8b-01cbac6cb9df)
 
