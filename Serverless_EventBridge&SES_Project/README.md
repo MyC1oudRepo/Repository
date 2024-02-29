@@ -40,7 +40,7 @@ Create an email service by adding your email address and sending domain.
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/dd39cca7-5454-4a9d-bc8b-01cbac6cb9df)
 
 
-Check the email box and authorize this email address for use with Amazon SES by accesing the validation URL.
+Check the email box and authorize the email address for use with Amazon SES by accesing the validation URL.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/af23c610-8c07-471f-8e70-e6eaf9dcd9ae)
 
