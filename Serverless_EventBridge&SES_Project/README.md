@@ -26,4 +26,11 @@ Create an email template. The template email_template.html has been uploaded to 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/56b34a12-a47e-4837-9b83-72a7f5f5060c)
 
 
+Create a contacts.csv file with the name and email address to be validated.
 
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/8e3a2ee6-fc12-4034-921f-6632d98a164b)
+
+
+Update both files email_template.html and contacts.csv to the S3 bucket my-serverless-email-project.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/5dfbecc4-4cfc-4f7f-8b50-b0bb7d7f94bf)
