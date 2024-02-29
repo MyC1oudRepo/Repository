@@ -1,1 +1,17 @@
+For this serverless project I'm using the following services:
+- Amazon Simple Email Service (SES)
+- AWS Lambda
+- Amazon Simple Storage Service (S3)
+- Amazon EventBridge (SES)
+- AWS Identity & Access Management (IAM)
+
+  ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/7a38170b-60b3-4d76-a007-8dafdb1de866)
+
+
+1. Create a bucket:
+
+  ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/bcda4c8a-a2d3-4f9a-8ca4-7a3f04c8e003)
+
+
+
 
