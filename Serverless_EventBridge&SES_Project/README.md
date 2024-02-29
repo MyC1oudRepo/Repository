@@ -50,4 +50,8 @@ Once you validate your email address you can start sending emails from that addr
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/08e78764-1199-46bf-a0b0-1e4f5c42bdfc)
 
 
+Our architecture overview at this point will be like this:
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/12570310-f642-4ac8-978d-5410e23b1a01)
+
 
