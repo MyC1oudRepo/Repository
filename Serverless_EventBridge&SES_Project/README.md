@@ -10,7 +10,8 @@ For this serverless project I'm using the following services:
 
 1. Create a bucket:
 
-  ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/bcda4c8a-a2d3-4f9a-8ca4-7a3f04c8e003)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/de7bf8b3-e97c-4025-bf65-b4e176685ca9)
+
 
 
 
