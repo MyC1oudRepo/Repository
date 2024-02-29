@@ -18,6 +18,9 @@ Architecture overview after completing the first step:
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/af75ee9b-9aec-4420-bb42-6d4e722df6f0)
 
 
+Step 2. Create email template. You can find the template above this README.md file. 
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/56b34a12-a47e-4837-9b83-72a7f5f5060c)
 
 
 
