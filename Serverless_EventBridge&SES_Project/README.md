@@ -45,7 +45,7 @@ Check the email box and authorize this email address for use with Amazon SES by 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/af23c610-8c07-471f-8e70-e6eaf9dcd9ae)
 
 
-Once you validate your email address you can start email sending from that address. 
+Once you validate your email address you can start sending emails from that address. 
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/08e78764-1199-46bf-a0b0-1e4f5c42bdfc)
 
