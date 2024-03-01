@@ -41,7 +41,7 @@ Create an email service by adding your email address and sending domain.
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/dd39cca7-5454-4a9d-bc8b-01cbac6cb9df)
 
 
-Check the mail box and authorize the email address for use with Amazon SES by accesing the validation URL.
+Check the mail box and authorize the email address that we are going to use to send emails from.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/56bafbf1-65ce-49ae-b87a-a7cf1e8350f3)
 
