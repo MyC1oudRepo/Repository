@@ -55,3 +55,19 @@ Our architecture overview at this point will be like this:
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/12570310-f642-4ac8-978d-5410e23b1a01)
 
 
+From the Amazon SES service, option "Get set up", we can send a test email.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6b0c51b4-cb6d-45fd-813e-f6f135bdc3f0)
+
+
+Validate the individual email addresses we want to send to by clicking on "View all identities".
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/63dbd703-711f-44b0-8af8-67ed6bd80714)
+
+
+Create an identity.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/aaf1aef0-3d5b-4abe-af11-bf2f43f2a108)
+
+
+
