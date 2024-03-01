@@ -88,7 +88,8 @@ Now we can start sending emails to that email address.
 
 Next, new are goint to merge the email template with the contacts and then send them to SES throught a Lambda function. The architecture overview will look like this:
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/364b09e7-3503-400a-ae4a-9a09aa065a65)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6efe4c32-6da9-4970-8e75-58c2935d5761)
+
 
 
 
