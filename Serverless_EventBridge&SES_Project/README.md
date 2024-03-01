@@ -75,3 +75,14 @@ Add an email address you want to use to send emails through Amazon SES.
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/d6faa679-666f-4575-8db9-bc8d10841c9a)
 
 
+Confirm by clicking the email validation link.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/2373db97-c7bd-480b-af0a-fd43cbc35bbb)
+
+
+Now we can start sending emails to that email address.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/b823c447-bb09-4aa3-8bbd-64210cf7f6e1)
+
+
+
