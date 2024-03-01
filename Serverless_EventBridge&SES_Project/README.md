@@ -70,4 +70,8 @@ Create an identity.
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/aaf1aef0-3d5b-4abe-af11-bf2f43f2a108)
 
 
+Add an email address you want to use to send emails through Amazon SES.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/d6faa679-666f-4575-8db9-bc8d10841c9a)
+
 
