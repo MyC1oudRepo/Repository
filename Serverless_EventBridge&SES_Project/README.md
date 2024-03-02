@@ -122,7 +122,7 @@ Deploy the function.
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/533c0ed4-95be-47d9-b258-872de3342ae2)
 
 
-Test the function, just as a check before we trigger it from an external source. Click on Test an configure a test event.
+Test the function, just as a check before we trigger it from an external source. Click on Test and configure a test event.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/01ef8004-6441-49d6-bde0-21cfdeef364c)
 
