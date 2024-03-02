@@ -111,7 +111,8 @@ Now we've got the SendSESEmailToContacts function created.
 
 Replace the default lambda function with the one from the file lambda_function.py and update line 30 with your verified "From" email.
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fbb325e2-f00d-4433-a44e-24ec2f0cb446)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/2231a896-5804-420d-a15f-b26cfbfc69ff)
+
 
 
 
