@@ -33,6 +33,9 @@ Create a contacts.csv file with the name and email address to be validated.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/593edbe8-fb07-4feb-be0c-c94c43eb58d6)
 
+Deploy the function.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/1f0ff1e1-b9f7-47e6-8fe3-29c9caa36c2d)
 
 
 Update both files email_template.html and contacts.csv to the S3 bucket my-serverless-email-project.
@@ -112,6 +115,23 @@ Now we've got the SendSESEmailToContacts function created.
 Replace the default lambda function with the one from the file lambda_function.py and update line 10 with your bucket name and line 30 with your verified "From" email.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6f9cf99d-042a-4997-a829-26256a5c19d6)
+
+
+Deploy the function.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/533c0ed4-95be-47d9-b258-872de3342ae2)
+
+
+Test the function, just as a check before we trigger it from an external source. Click on Test and configure a test event.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/01ef8004-6441-49d6-bde0-21cfdeef364c)
+
+
+I called the Event name TestSendEmail.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/01ceea8e-bd20-48f6-a12b-403041424c8a)
+
+
 
 
 
