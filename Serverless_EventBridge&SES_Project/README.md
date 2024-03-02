@@ -11,7 +11,7 @@ For this serverless project I'm using the following services:
 
 The following diagram represents the overview of the final design.
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/cb266959-85d7-4295-8c34-2e98423823fe)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/d653f053-341b-4b44-88f5-ebb9359e57ca)
 
 
 First, we'll create a bucket:
