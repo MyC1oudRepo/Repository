@@ -16,12 +16,12 @@ The following diagram represents the overview of the final design.
 
 First, we'll create a bucket:
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/63c9e6fc-7921-4eed-b6a0-e636c724c4a4)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/b6a28ece-05ba-4c9a-983f-d1cf9be4c499)
 
 
 Architecture overview after completing the first step:
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/a74ab54f-a193-4575-b7cf-ffe495f7d9ea)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fd589058-5faa-401f-a155-6fdd5c352f43)
 
 
 Create an email template. The template email_template.html has been uploaded to this folder.
