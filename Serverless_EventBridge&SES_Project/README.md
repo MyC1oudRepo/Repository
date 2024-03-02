@@ -33,6 +33,9 @@ Create a contacts.csv file with the name and email address to be validated.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/593edbe8-fb07-4feb-be0c-c94c43eb58d6)
 
+Deploy the function.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/1f0ff1e1-b9f7-47e6-8fe3-29c9caa36c2d)
 
 
 Update both files email_template.html and contacts.csv to the S3 bucket my-serverless-email-project.
