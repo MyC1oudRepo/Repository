@@ -19,11 +19,6 @@ First, we'll create a bucket:
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/b6a28ece-05ba-4c9a-983f-d1cf9be4c499)
 
 
-Architecture overview after completing the first step:
-
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fd589058-5faa-401f-a155-6fdd5c352f43)
-
-
 Create an email template. The template email_template.html has been uploaded to this folder.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/56b34a12-a47e-4837-9b83-72a7f5f5060c)
@@ -58,11 +53,6 @@ Once you validate your email address you can start sending emails from that addr
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/08e78764-1199-46bf-a0b0-1e4f5c42bdfc)
 
 
-Our architecture overview at this point will be like this:
-
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/12570310-f642-4ac8-978d-5410e23b1a01)
-
-
 From the Amazon SES service, option "Get set up", we can send a test email.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6b0c51b4-cb6d-45fd-813e-f6f135bdc3f0)
@@ -93,10 +83,7 @@ Now we can start sending emails to that email address.
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/b823c447-bb09-4aa3-8bbd-64210cf7f6e1)
 
 
-Next, new are goint to merge the email template with the contacts and then send them to SES throught a Lambda function. The architecture overview will look like this:
-
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6efe4c32-6da9-4970-8e75-58c2935d5761)
-
+Next, new are goint to merge the email template with the contacts and then send them to SES throught a Lambda function.
 
 Create a Lambda function from scratch and call it SendSESEmailToContacts. The language I'm using to write my funtion is Python 3.12.
 
