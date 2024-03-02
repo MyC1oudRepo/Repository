@@ -126,7 +126,11 @@ Test the function, just as a check before we trigger it from an external source.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/0e5bbc13-8bac-4615-8cc0-c5914cf161c9)
 
+
 I called the Event name TestSendEmail.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/01ceea8e-bd20-48f6-a12b-403041424c8a)
+
 
 
 
