@@ -100,4 +100,18 @@ Create a Lambda function from scratch and call it SendSESEmailToContacts. The la
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/b80dc182-e38b-4627-8c9f-4ea4cd7df977)
 
 
+Choose a role that give permissions to do things on other services and create the function.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/0c297cc1-ef54-483e-9157-7e94f45e007e)
+
+
+Now we've got the SendSESEmailToContacts function created.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/542b7f7e-9387-452a-a17f-e777f4d31d0f)
+
+Replace the default lambda function with the one from the file lambda_function.py and update line 30 with your verified "From" email.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fbb325e2-f00d-4433-a44e-24ec2f0cb446)
+
+
 
