@@ -117,6 +117,10 @@ Replace the default lambda function with the one from the file lambda_function.p
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6f9cf99d-042a-4997-a829-26256a5c19d6)
 
 
+Deploy the function.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/533c0ed4-95be-47d9-b258-872de3342ae2)
+
 
 
 
