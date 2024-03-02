@@ -131,7 +131,9 @@ I called the Event name TestSendEmail.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/01ceea8e-bd20-48f6-a12b-403041424c8a)
 
-I used a simple generic test event. We don't have to pass in the name of the contacts file or the name of the html file, since all this information is hardcoded in the lambda function. 
+I used a simple generic test event. We don't have to pass in the name of the contacts file or the name of the html file, since all this information is hardcoded in the lambda function. Check the lambda_function_event_test.py file for event test.
+
+
 
 
 
