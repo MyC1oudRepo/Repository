@@ -124,7 +124,7 @@ Deploy the function.
 
 Test the function, just as a check before we trigger it from an external source. Click on Test an configure a test event.
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/0e5bbc13-8bac-4615-8cc0-c5914cf161c9)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/01ef8004-6441-49d6-bde0-21cfdeef364c)
 
 
 I called the Event name TestSendEmail.
