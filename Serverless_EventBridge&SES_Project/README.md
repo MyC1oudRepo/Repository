@@ -147,7 +147,7 @@ Expand the role. We can see that we only have permissions to write to CloudWatch
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/c54a9c6d-a2c1-4273-b9ad-708ba6edb0e9)
 
-We have to manually add permissions for S3 and SES. First, we'll create a new policy with those permissions and then we'll attach it to lambda execution role. You can find the policy code in the IAM_Policy_for_SES_and_S3_permissions.txt file.
+We have to manually add permissions for S3 and SES. First, we'll create a new policy with those permissions and then we'll attach it to lambda execution role. You can find the policy code in the IAM_Policy_for_SES_and_S3_permissions.json file.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6b1700d5-cd37-4625-849c-7703165d0712)
 
