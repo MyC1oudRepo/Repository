@@ -131,8 +131,13 @@ I called the Event name TestSendEmail.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/01ceea8e-bd20-48f6-a12b-403041424c8a)
 
-I used a simple generic test event. We don't have to pass in the name of the contacts file or the name of the html file, since all this information is hardcoded in the lambda function. Check the lambda_function_event_test.py file for event test.
+I used a simple generic test event. We don't have to pass in the name of the contacts file or the name of the html file, since all this information is hardcoded in the lambda function. Copy the test code from the lambda_function_event_test.py file and save the test.
 
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/3398d0bf-98a5-4310-bdf6-e15ec368c965)
+
+Click on the Test button. We'll get an access denied error code.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/e46e7a8f-3748-49ad-bdd5-b57dbffeba9d)
 
 
 
