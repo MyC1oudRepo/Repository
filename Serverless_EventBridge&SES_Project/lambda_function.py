@@ -7,7 +7,7 @@ ses_client = boto3.client('ses')
 
 def lambda_handler(event, context):
     # Specify the S3 bucket name
-    bucket_name = 'ttt-email-marketing' # Replace with your bucket name
+    bucket_name = 'my-serverless-email-project' # Replace with your bucket name
 
     try:
         # Retrieve the CSV file from S3
