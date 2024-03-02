@@ -142,5 +142,8 @@ Go backup to Lambda execution role and add the new policy containing the S3 and 
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6c03d558-af26-4bc3-bc59-5d57954ca209)
 
+Add the policy that we have just created LambdaS3SESPolicy.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/d133f4ca-e026-4286-af36-9b6fef9fb0f7)
 
 
