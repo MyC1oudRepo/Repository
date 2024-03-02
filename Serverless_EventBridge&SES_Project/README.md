@@ -151,6 +151,9 @@ We have to manually add permissions for S3 and SES. First, we'll create a new po
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6b1700d5-cd37-4625-849c-7703165d0712)
 
+We'll call the policy LambdaS3SESPolicy and we'll create it leaving the other options by default.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/cb083293-72b5-48df-a77a-948ccd830772)
 
 
 
