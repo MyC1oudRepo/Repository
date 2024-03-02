@@ -139,12 +139,13 @@ Click on the Test button. We'll get an access denied error code.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/e46e7a8f-3748-49ad-bdd5-b57dbffeba9d)
 
-If we check the lambda execution role, we can see that we only have permissions to write to CloudWatch Logs.
+Search for the lambda execution role, 
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/7c9bea71-5035-493a-ac6a-26d854c20f2e)
 
-Expand the role.
+Expand the role. We can see that we only have permissions to write to CloudWatch Logs. 
 
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/c54a9c6d-a2c1-4273-b9ad-708ba6edb0e9)
 
 
 
