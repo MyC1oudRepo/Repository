@@ -139,7 +139,7 @@ Click on the Test button. We'll get an access denied error code.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/e46e7a8f-3748-49ad-bdd5-b57dbffeba9d)
 
-
+If we check the lambda execution role, we can see the 
 
 
 
