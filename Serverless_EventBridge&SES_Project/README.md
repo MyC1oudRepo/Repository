@@ -16,7 +16,7 @@ The following diagram represents the overview of the final design.
 
 First, we'll create a bucket:
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/de7bf8b3-e97c-4025-bf65-b4e176685ca9)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/63c9e6fc-7921-4eed-b6a0-e636c724c4a4)
 
 
 Architecture overview after completing the first step:
