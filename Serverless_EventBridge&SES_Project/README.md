@@ -95,5 +95,9 @@ Next, new are goint to merge the email template with the contacts and then send 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6efe4c32-6da9-4970-8e75-58c2935d5761)
 
 
+Create a Lambda function from scratch and call it SendSESEmailToContacts. The language I'm using to write my funtion is Python 3.12.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/b80dc182-e38b-4627-8c9f-4ea4cd7df977)
+
 
 
