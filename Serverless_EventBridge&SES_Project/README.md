@@ -146,4 +146,7 @@ Add the policy that we have just created to the execution role.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/d133f4ca-e026-4286-af36-9b6fef9fb0f7)
 
+Run the test again and you see that the emails will be delivered successfully.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/477c3374-f14c-4f68-addf-a8437a31a732)
 
