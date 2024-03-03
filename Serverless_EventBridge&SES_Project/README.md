@@ -97,7 +97,7 @@ Now we've got the SendSESEmailToContacts function created.
 
 Replace the default lambda function with the one from the file lambda_function.py and update line 10 with your bucket name and line 30 with your verified "From" email.
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6f9cf99d-042a-4997-a829-26256a5c19d6)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/949db3f8-0b60-4104-8929-2850f3c7150b)
 
 
 Deploy the function.
