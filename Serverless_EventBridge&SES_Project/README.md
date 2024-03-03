@@ -34,9 +34,9 @@ Upload both files email_template.html and contacts.csv to the S3 bucket my-serve
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/5dfbecc4-4cfc-4f7f-8b50-b0bb7d7f94bf)
 
 
-Create an email service by adding your email address and sending domain.
+Create an email service by adding your email address and a sending domain. The sending domain has to be you own domain. I'm using myclouddomain.net.
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/dd39cca7-5454-4a9d-bc8b-01cbac6cb9df)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/544189fc-eb90-43ac-b4d8-0423ee394e5e)
 
 
 Check the mail box and authorize the email address that we are going to use to send emails from.
