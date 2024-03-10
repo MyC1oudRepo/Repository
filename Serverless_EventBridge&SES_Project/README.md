@@ -10,7 +10,7 @@ For this serverless project I'm using the following services:
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/e77871c7-38c7-44a2-9a9e-1716bd4cb812)
 
-The following diagram represents the overview of the final design.
+## Diagram representing the final design
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/f264dba2-086a-4c59-98ae-0031c103512f)
 
