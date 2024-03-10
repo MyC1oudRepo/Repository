@@ -1,3 +1,4 @@
+# Serverless Email Sending Application using EventBridge and SES
 <strong> The aim of this project is to send emails on a regular schedule using AWS Services. </strong>
 
 For this serverless project I'm using the following services:
