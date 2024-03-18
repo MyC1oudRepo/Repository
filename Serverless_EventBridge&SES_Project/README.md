@@ -179,7 +179,7 @@ The schedule should be enabled by default.
 
 We are not going to take any actions after schedule completion.
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fb793120-9a7f-4b32-8a78-460128691e00)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/d6acf4af-5490-43a5-a9cd-241b1e41dfe4)
 
 We'll leave everything else by defaut and click Next.
 
