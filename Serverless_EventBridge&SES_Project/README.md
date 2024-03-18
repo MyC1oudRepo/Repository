@@ -147,7 +147,29 @@ Add the policy that we have just created to the execution role.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/d133f4ca-e026-4286-af36-9b6fef9fb0f7)
 
-Run the test again and the emails will be delivered successfully.
+Run the test again and the emails will be delivered successfully. Check the email box :)
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/477c3374-f14c-4f68-addf-a8437a31a732)
+
+Now we'll go to EventBridge and create a Schedule.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/38a8645d-550b-44d4-a372-17167a77a379)
+
+I will call it SendScheduledEmail.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/53861720-7924-4553-b81e-c45226687846)
+
+I chose the following schedule pattern, one time execution.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/57d7efd4-92f6-4aa3-bc3d-e343efc2cc16)
+
+As a target we'll select AWS Lambda.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/f1daf074-a382-464a-a3fb-5e5c57043754)
+
+
+
+
+
+
 
