@@ -139,7 +139,7 @@ We'll call the policy LambdaS3SESPolicy and we'll create it leaving the other op
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/cb083293-72b5-48df-a77a-948ccd830772)
 
-Go backup to Lambda execution role and add the new policy containing the S3 and SES permissions.
+Go back to Lambda execution role and add the new policy containing the S3 and SES permissions.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6c03d558-af26-4bc3-bc59-5d57954ca209)
 
