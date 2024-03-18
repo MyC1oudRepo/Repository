@@ -163,9 +163,46 @@ I chose the following schedule pattern, one time execution.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/57d7efd4-92f6-4aa3-bc3d-e343efc2cc16)
 
-As a target we'll select AWS Lambda.
+We'll select AWS Lambda as target.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/f1daf074-a382-464a-a3fb-5e5c57043754)
+
+From the dropdown menu select your Lambda function. Make sure you are in the same region where you created the function.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/1204c0e2-5407-43a5-bf2a-11ef6105a567)
+
+Click Next.
+
+The schedule should be enabled by default.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/0c405167-d6d3-4f29-a1df-213ef797b874)
+
+We are not going to take any actions after schedule completion.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fb793120-9a7f-4b32-8a78-460128691e00)
+
+We'll leave everything else by defaut and click Next.
+
+Review and create schedule.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/72edb4e4-2e0b-46f5-936e-2204338cd2f1)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/5c8d8967-2f9a-49b1-ad24-2de8431bfd90)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/6f801a66-9ef1-480d-af93-33a9b2ec4eba)
+
+The lambda function should send us an email at the time scheduled in the EventBridge.
+
+We can monitor our lambda function. In Lambda, if we go to the Monitor tab, we can see what's going on with our function.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/bf7a8148-a648-4a16-a156-f0f5ab07e5e7)
+
+
+
+
+
+
+
+
+
 
 
 
