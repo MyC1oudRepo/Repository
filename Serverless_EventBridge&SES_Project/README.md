@@ -119,7 +119,7 @@ I used a simple generic test event. We don't have to pass in the name of the con
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/3398d0bf-98a5-4310-bdf6-e15ec368c965)
 
-Click on the Test button. We'll get an access denied error code.
+Click on the Test button. We'll get access denied error code since the Lambda function does not have permissions to access the objects in the S3 bucket.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/e46e7a8f-3748-49ad-bdd5-b57dbffeba9d)
 
