@@ -28,3 +28,17 @@ In the Summary window, review the installation settings, and if you are satisfie
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/135aba69-101e-4124-b50e-ca899e81a222)
 
+
+<strong>Log in to the Oracle XE database with SQL*Plus</strong>
+
+Find the ORACLE_SID and ORACLE_HOME variables. You can check the Oracle Services.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/5ba269d4-2b56-43e3-8206-744193486e90)
+
+Open a cmd window, set the the ORACLE_SID and ORACLE_HOME variables and connect with the user system to the Oracle XE database.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/84e5e541-f462-452e-aec1-ac2777fb15ea)
+
+
+
+
