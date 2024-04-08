@@ -39,13 +39,14 @@ Open a cmd window, set the the ORACLE_SID and ORACLE_HOME variables and connect 
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/84e5e541-f462-452e-aec1-ac2777fb15ea)
 
-Create a directory on the Oracle XE database. Make sure the path on the local server exists.
+Create a directory on the Oracle XE database. Make sure the path exists on the local server.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/0e4a3536-243b-4ec1-8d8e-b547b4b23e6e)
 
 
 Create a database link to your source RDS database
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/cf5c6b86-c924-46a6-9aee-1a7bfb4e4ef5)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/34ee610b-6349-4e35-95f7-0f245b6fcbb1)
+
 
 
