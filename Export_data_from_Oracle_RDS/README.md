@@ -31,7 +31,7 @@ In the Summary window, review the installation settings, and if you are satisfie
 
 <strong>Log in to the Oracle XE database with SQL*Plus</strong>
 
-Find the ORACLE_SID and ORACLE_HOME variables. You can check the Oracle Services.
+Check the OracleServiceXE to get the ORACLE_SID and ORACLE_HOME.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/5ba269d4-2b56-43e3-8206-744193486e90)
 
