@@ -44,9 +44,31 @@ Create a directory on the Oracle XE database. Make sure the path exists on the l
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/0e4a3536-243b-4ec1-8d8e-b547b4b23e6e)
 
 
-Create a database link to your source RDS database
+Create a database link to your source RDS database. I have used the system user to create the database link.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/34ee610b-6349-4e35-95f7-0f245b6fcbb1)
+
+We can check the database link has been successfully created by running the following query.
+
+    SQL> col OWNER format a25
+    SQL> col DB_LINK format a40
+    SQL> col USERNAME format a15
+    SQL> col host format a40
+    SQL> set lines 150 pages 200
+    SQL> select OWNER, DB_LINK, USERNAME, host from dba_db_links;
+
+<strong>Export data</strong>
+
+We are going take an export of schema SCHEMA01. Check the schema size and that you have enough free space on disk.
+
+    SQL> col owner for a30
+    SQL> select owner, sum(bytes)/1024/1024/1024 GB from dba_segments where owner='SCHEMA01' group by owner;
+
+
+We'll create the dump file using the expdp utility. First we'll check the oracle variables then we'll run the export.
+
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fe58ede4-8ab8-44ab-aeb1-2f9b627f1671)
+
 
 
 
