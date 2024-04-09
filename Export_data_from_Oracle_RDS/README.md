@@ -59,7 +59,7 @@ We can check the database link has been successfully created by running the foll
 
 <strong>Export data</strong>
 
-We are going take an export of schema SCHEMA01. Check the schema size and that you have enough free space on disk.
+We are going take an export of schema SCHEMA01. Check the schema size. Check that you have enough free space on disk.
 
     SQL> col owner for a30
     SQL> select owner, sum(bytes)/1024/1024/1024 GB from dba_segments where owner='SCHEMA01' group by owner;
@@ -67,7 +67,8 @@ We are going take an export of schema SCHEMA01. Check the schema size and that y
 
 We'll create the dump file using the expdp utility. First we'll check the oracle variables then we'll run the export.
 
-![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/fe58ede4-8ab8-44ab-aeb1-2f9b627f1671)
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/a895a1aa-11da-4fe7-b7ea-8d760f4011da)
+
 
 
 
