@@ -65,7 +65,7 @@ We are going take an export of schema SCHEMA01. Check the schema size. Check tha
     SQL> select owner, sum(bytes)/1024/1024/1024 GB from dba_segments where owner='SCHEMA01' group by owner;
 
 
-We'll create the dump file using the expdp utility. First we'll check the oracle variables then we'll run the export.
+Check the oracle variables are set correctly and run the export using the expdp utility.
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/a895a1aa-11da-4fe7-b7ea-8d760f4011da)
 
