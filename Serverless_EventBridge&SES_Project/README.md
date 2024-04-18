@@ -195,17 +195,13 @@ We can monitor our lambda function. In Lambda, if we go to the Monitor tab, we c
 
 ![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/bf7a8148-a648-4a16-a156-f0f5ab07e5e7)
 
+If we check the metrics in the last 5 minutes, we can see that there's one invocation at 17:55 UTC and we've got success in the third graph.
 
+![image](https://github.com/MyC1oudRepo/Repository/assets/151183434/f124a198-bbf1-4c1d-ba09-2d571a9d2ebf)
 
+Checking the CloudWatch Logs you can get more information if you think that something went wrong.
 
-
-
-
-
-
-
-
-
+![Screenshot 2024-03-03 190017](https://github.com/MyC1oudRepo/Repository/assets/151183434/ef1c7c9e-d028-44d9-8c0f-50842451bbb2)
 
 
 
