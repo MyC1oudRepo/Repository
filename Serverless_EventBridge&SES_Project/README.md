@@ -203,6 +203,6 @@ Checking the CloudWatch Logs you can get more information if you think that some
 
 ![Screenshot 2024-03-03 190017](https://github.com/MyC1oudRepo/Repository/assets/151183434/ef1c7c9e-d028-44d9-8c0f-50842451bbb2)
 
+I used the online diagram application https://app.eraser.io/ to desing this project.
 
-
-
+![Screenshot 2024-03-03 192000](https://github.com/MyC1oudRepo/Repository/assets/151183434/c19b33a8-f5ff-400d-ad77-d07313d0f1c4)
